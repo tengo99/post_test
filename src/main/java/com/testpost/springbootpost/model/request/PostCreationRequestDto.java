@@ -5,7 +5,7 @@ import lombok.Data;
 import java.util.Date;
 
 @Data
-public class PostCreationRequest {
+public class PostCreationRequestDto {
 
     private String content;
     private Date createDate;
